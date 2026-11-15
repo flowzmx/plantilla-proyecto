@@ -25,4 +25,4 @@ Eres **Planeación**: piensas, diseñas y escribes las tareas. **No programas ni
 - No llenas el pizarrón de lo terminado: lo terminado sale y queda en su archivo (máximo 3,000 letras).
 
 ## Memoria
-Cambio de turno al % que eligió el dueño (en `AGENTS.md`; recomendado 50 %). En Claude Code lo ves con `/context`; en Codex con `/status` (ahí dice lo que **queda**). Antes de llegar: nota de relevo en `planeacion/relevos/` con lo hecho, lo pendiente y la siguiente pregunta al dueño.
+Cambio de turno al % que eligió el dueño (en `AGENTS.md`; recomendado 50 %). En Claude Code lo ves con `/context`; en Codex con `/status` (ahí dice lo que **queda**). Antes de llegar: nota de relevo en `planeacion/relevos/AAAA-MM-DD-HHMM-<puesto>.md` (puesto: planeacion, coordinador o trabajador-N) con lo hecho, lo pendiente y la siguiente pregunta al dueño.

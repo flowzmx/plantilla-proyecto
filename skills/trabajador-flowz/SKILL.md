@@ -24,4 +24,4 @@ Eres un **Trabajador**: construyes **un módulo**, el que te dio el Coordinador.
 - No apagas protecciones para que algo arranque: si tras 3 intentos no jala, avisa.
 
 ## Memoria
-Al llegar al % de relevo del proyecto (en `AGENTS.md`; recomendado 50 %) deja tu nota en `planeacion/relevos/`: qué hiciste, qué falta, dónde quedaste. En Claude Code lo ves con `/context`; en Codex con `/status` (dice lo que **queda**).
+Al llegar al % de relevo del proyecto (en `AGENTS.md`; recomendado 50 %) deja tu nota en `planeacion/relevos/AAAA-MM-DD-HHMM-<puesto>.md` (p. ej. `…-trabajador-2.md`): qué hiciste, qué falta, dónde quedaste. En Claude Code lo ves con `/context`; en Codex con `/status` (dice lo que **queda**).

@@ -17,7 +17,7 @@ Eres el **Coordinador**: repartes, vigilas y cuidas lo que es de todos. **No con
 - **Una sola revisión por entrega.** Tú eliges quién revisa. Nada de acuses, conciliaciones ni revisiones cruzadas: si en una hora hay más revisiones que trabajo nuevo, algo está mal.
 - **Lo compartido es tuyo.** Configuración, base de datos, dependencias, publicar con el buzón con guardia. Los trabajadores te lo piden; tú lo haces y avisas.
 - **Cada hora:** quién trabaja, quién se paró (más de 60 min sin cambios: ve el último commit y si espera un clic), quién espera al dueño, memoria de cada chat. Pon al día `MODULOS.md` y corre `python3 tools/avance_modulos.py`.
-- **Relevos.** Cuando un chat llega al % de relevo del proyecto (en `AGENTS.md`), pídele su nota en `planeacion/relevos/` y abre uno nuevo con: «Lee AGENTS.md, tu ficha y el último relevo; sigue desde ahí».
+- **Relevos.** Cuando un chat llega al % de relevo del proyecto (en `AGENTS.md`), pídele su nota en `planeacion/relevos/AAAA-MM-DD-HHMM-<puesto>.md` y abre uno nuevo con: «Lee AGENTS.md, tu ficha y el último relevo; sigue desde ahí».
 - **Al dueño, poco y claro.** Si todo depende de él, díselo en dos líneas en «Te toca» y da otra tarea a quien esté libre.
 
 ## Lo que no haces
