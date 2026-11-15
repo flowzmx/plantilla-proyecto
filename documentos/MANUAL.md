@@ -6,7 +6,7 @@ Versión en el repositorio del documento https://claude.ai/artifact/FCSd5JvozCBj
 Hace que varias IAs trabajen solas y sin pararse en un proyecto. El dueño solo toma las decisiones de dueño. Funciona con cualquier IA (ChatGPT/Codex, Claude o la que siga).
 
 ## La obra
-El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** externo (vigila cada hora y escribe las respuestas del dueño) → **Repositorio y pizarrón** (todo queda guardado) ↔ **Jefe** (Planeación, reparte) → **Cuadrillas** (construyen en un taller aparte) → **Buzón con guardia** (revisa, respalda e instala) → **Página real**. Un **Despertador** levanta a cada chat solo con lo suyo, y la **Torre de control** (este proyecto) se lo muestra al dueño.
+El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** externo (vigila cada hora y escribe las respuestas del dueño) → **Repositorio y pizarrón** (todo queda guardado) ↔ **Planeación** (piensa, diseña y escribe las tareas) → **Coordinador** (abre los chats, reparte y vigila) → **Trabajadores** (construyen en un taller aparte) → **Buzón con guardia** (revisa, respalda e instala) → **Página real**. Un **Despertador** levanta a cada chat solo con lo suyo, y la **Torre de control** (este proyecto) se lo muestra al dueño.
 
 ## Las piezas
 | Pieza | Qué es |
@@ -30,11 +30,11 @@ El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** exter
 7. Aviso antes de cargas pesadas.
 8. Nada de comandos que pidan clic de aprobación.
 9. Una sola publicación a la vez.
-10. Cambio de turno al 35–40 % de memoria.
+10. Cambio de turno al % de memoria que elija el dueño (recomendado 40 %, nunca más de 50 %).
 11. Recibo de terminado: sin prueba anotada no está hecho. La idea viene de Mission Control, de builderz-labs, con licencia MIT.
 
 ## Arrancar un proyecto nuevo
-1. El dueño dice qué quiere. 2. Se crea el repositorio. 3. Se escriben instrucciones cortas (`AGENTS.md`). 4. Se arma la hoja de módulos. 5. El jefe recomienda el equipo con `documentos/ARMAR-EQUIPO.md` (el dueño dice qué tiene y elige A/B) y se abren las cuadrillas. 6. Bóveda en 1Password (la crea el dueño). 7. Despertador y buzón en el servidor (con la Mac del dueño, una sola vez). 8. Se conecta a Flowz Proyectos. 9. El supervisor revisa cada hora.
+1. El dueño dice qué quiere. 2. Se crea el repositorio. 3. Se escriben instrucciones cortas (`AGENTS.md`). 4. Se arma la hoja de módulos. 5. Planeación recomienda el equipo con `documentos/ARMAR-EQUIPO.md` (el dueño dice qué tiene y elige A/B) y el Coordinador abre a los trabajadores. 6. Bóveda en 1Password (la crea el dueño). 7. Despertador y buzón en el servidor (con la Mac del dueño, una sola vez). 8. Se conecta a Flowz Proyectos. 9. El supervisor revisa cada hora.
 
 ## Cómo decide el dueño
 El dueño habla con el supervisor, o elige en el panel. Cada respuesta queda en `planeacion/respuestas-arnaldo/AAAA-MM-DD-HHMM.md` con sus palabras. Le toca decidir los diseños, el orden y autorizar lo real. No le tocan los detalles técnicos ni las llaves.

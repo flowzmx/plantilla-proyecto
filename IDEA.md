@@ -7,5 +7,7 @@ Escrita en Flowz Proyectos el {{fecha}}. Es el punto de partida: **no se cambia*
 
 ## Lo que ya eligió
 - Nombre: **{{nombre}}**
-- IA del jefe: **{{ia_jefe}}** · IA de las cuadrillas: **{{ia_cuadrillas}}** («Cualquiera» = la que esté a la mano; el método es el mismo para todas)
+- IA de cada puesto: Planeación **{{ia_planeacion}}** · Coordinador **{{ia_coordinador}}** · Trabajadores **{{ia_trabajadores}}** («Cualquiera» = la que esté a la mano; el método es el mismo para todas)
+- Skills por puesto: {{skills}}
+- Cambio de turno (relevo) al **{{relevo}} %** de memoria
 - Tamaño del equipo que prefiere: **{{equipo}}** (la propuesta de Planeación puede sugerir otro, con su porqué)

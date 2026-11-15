@@ -1,14 +1,15 @@
 # Encargo 00 · Propuesta inicial de {{nombre}}
 
-Para Planeación (el jefe). Es lo primero que se hace en este proyecto.
+Para **Planeación**. Es lo primero que se hace en este proyecto.
 
 ## Qué hacer
 1. Lee `IDEA.md` completo.
-2. Propón el **equipo** siguiendo `documentos/ARMAR-EQUIPO.md` (con quién cuenta, reglas y formato A/B): 1 jefe + de 3 a 5 cuadrillas, cada una con su área. {{dueno}} prefiere **{{equipo}}**; si recomiendas otro tamaño, di por qué en una línea.
-3. Propón las **skills** que le servirían a cada cuadrilla (las que ya existan en la IA de cada puesto: jefe **{{ia_jefe}}**, cuadrillas **{{ia_cuadrillas}}**), sin instalar nada.
+2. Propón el **equipo** siguiendo `documentos/ARMAR-EQUIPO.md`: Planeación, un Coordinador y los trabajadores, cada uno con su área. {{dueno}} prefiere **{{equipo}}**; si recomiendas otro tamaño, di por qué en una línea.
+3. Revisa las **skills** de cada puesto en `skills/` (las eligió el dueño) y propón si falta alguna, sin instalar nada.
 4. Propón los **primeros módulos**: la tabla de `planeacion/MODULOS.md` con 5 a 12 módulos agrupados en fases, todos en ⬜.
-5. Escribe las fichas de cada cuadrilla en `planeacion/chats/` (una por cuadrilla, corta: su área, qué hace primero y sus «No»).
+5. Llena la ficha de cada trabajador en `planeacion/chats/` (su área, qué hace primero y sus «No»).
 6. Pon la propuesta en «Te toca» de `MODULOS.md` como **opciones A/B, con una recomendada**, para que el dueño elija con un clic en el panel.
+7. Con la propuesta aprobada, deja al **Coordinador** el encargo `01-abrir-chats.md` para que abra a los trabajadores.
 
 ## Qué NO hacer
 - No construir nada todavía: primero que el dueño apruebe.

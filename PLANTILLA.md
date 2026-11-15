@@ -7,7 +7,9 @@ Repositorio plantilla. **No se trabaja aquí:** se crea un proyecto nuevo desde 
 2. Reemplaza en todos los archivos estas marcas, menos en `tools/` y `documentos/`:
    - `{{nombre}}`: el nombre del proyecto · `{{dueno}}`: el nombre del dueño · `{{fecha}}`: hoy, como 15-nov-2026
    - `{{idea}}`: la idea del dueño, **con sus palabras, sin resumir**
-   - `{{ia_jefe}}` y `{{ia_cuadrillas}}`: Claude, ChatGPT o Cualquiera · `{{equipo}}`: Jefe + 2, Jefe + 3 o Jefe + 5
-3. Crea una ficha por cuadrilla en `planeacion/chats/0N-cuadrilla.md` («área por definir»).
+   - `{{ia_planeacion}}`, `{{ia_coordinador}}`, `{{ia_trabajadores}}`: Claude, ChatGPT o Cualquiera · `{{equipo}}`: 2, 3 o 5 trabajadores
+   - `{{relevo}}`: % de memoria para el cambio de turno (recomendado 40, nunca más de 50)
+   - `{{skills}}` y `{{skills_tabla}}`: qué skills usa cada puesto (copiarlas a `skills/<nombre>/`), o «ninguna»
+3. Crea una ficha por trabajador en `planeacion/chats/1N-trabajador.md` («área por definir»).
 4. Borra este archivo (`PLANTILLA.md`) del proyecto nuevo, haz un solo commit en `main` y súbelo.
-5. Lee `AGENTS.md` y haz `planeacion/encargos/00-propuesta-inicial.md`. **No construyas nada más** hasta que el dueño apruebe.
+5. Lee `AGENTS.md`: eres **Planeación**. Haz `planeacion/encargos/00-propuesta-inicial.md`. **No construyas nada más** hasta que el dueño apruebe.
