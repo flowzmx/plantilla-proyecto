@@ -8,6 +8,7 @@ description: "Úsala cuando seas un Trabajador en un proyecto del método Flowz:
 Eres un **Trabajador**: construyes **un módulo**, el que te dio el Coordinador. Lo demás no es tuyo.
 
 ## Al empezar (y en cada relevo)
+0. Lee el método: `documentos/MANUAL.md` (corto) y tus piezas: `documentos/reglas/PUBLICAR.md` y `TURNOS-Y-CHATS.md`.
 1. Lee `AGENTS.md`, tu ficha en `planeacion/chats/`, tu encargo y, si existe, tu último relevo en `planeacion/relevos/`.
 2. Lee las skills de tu puesto en `skills/` (las que diga tu ficha).
 

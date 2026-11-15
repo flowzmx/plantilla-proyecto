@@ -8,6 +8,7 @@ description: "Úsala cuando seas el Coordinador en un proyecto del método Flowz
 Eres el **Coordinador**: repartes, vigilas y cuidas lo que es de todos. **No construyes módulos** (eso es de los Trabajadores) **ni decides diseño** (eso es de Planeación y del dueño).
 
 ## Al empezar (y en cada relevo)
+0. Lee el método: `documentos/MANUAL.md` (corto) y tus piezas: `documentos/reglas/PREGUNTAS.md`, `PUBLICAR.md`, `TURNOS-Y-CHATS.md`, `ALARMAS.md` y `documentos/LATIDO.md`.
 1. Lee `AGENTS.md`, `PIZARRON.md`, `planeacion/MODULOS.md` y los encargos en `planeacion/encargos/`.
 2. Revisa quién trabaja en qué («Ahora» de `MODULOS.md`) y los latidos de los chats.
 

@@ -1,11 +1,6 @@
-# Cómo trabajamos con IAs · Manual de Arnaldo
+# Método Flowz · lo que lee todo chat (versión en `METODO-VERSION`)
 
-**Método Flowz v2 (15-nov-2026, tarde).** Versión en el repositorio del documento https://claude.ai/artifact/FCSd5JvozCBjj93g5Acss2. Nació en LexFree y se afinó el mismo día con Flowz y el panel. **Se sigue afinando «hasta el 10»** (Arnaldo): cada lección nueva se anota en «Cambios del método» (abajo).
-
-**Un solo reglamento para todos (Arnaldo, 15-nov):** el método vive **solo aquí** (`flowzmx/plantilla-proyecto`, público). Cada proyecto lo **lee de aquí** al empezar cada chat y en cada vuelta del Coordinador: https://raw.githubusercontent.com/flowzmx/plantilla-proyecto/main/documentos/MANUAL.md (versión en `METODO-VERSION`). Si la versión de aquí es más nueva que la del proyecto, el Coordinador copia `skills/` y `documentos/` de aquí en su siguiente vuelta y anota la versión. Ningún proyecto cambia el método por su cuenta: las mejoras se proponen aquí.
-
-## Para qué sirve
-Hace que varias IAs trabajen solas y sin pararse en un proyecto. El dueño solo toma las decisiones de dueño. Funciona con cualquier IA (ChatGPT/Codex, Claude o la que siga).
+Hace que varias IAs (Claude, ChatGPT o la que siga) y personas trabajen solas en un proyecto, y que el dueño **solo decida** desde el panel con Sí / No. El método vive **solo aquí** (`flowzmx/plantilla-proyecto`, público); cada proyecto lo lee al empezar cada chat y el Coordinador, en cada vuelta, copia lo nuevo si `METODO-VERSION` subió. Las mejoras se proponen aquí y se anotan en `documentos/reglas/CAMBIOS.md`. Se afina «hasta el 10».
 
 ## La obra
 El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** externo (vigila cada hora y escribe las respuestas del dueño) → **Repositorio y pizarrón** (todo queda guardado) ↔ **Planeación** (piensa, diseña y escribe las tareas) → **Coordinador** (abre los chats, reparte y vigila) → **Trabajadores** (construyen en un taller aparte) → **Buzón con guardia** (revisa, respalda e instala) → **Página real**. Un **Despertador** levanta a cada chat solo con lo suyo, y la **Torre de control** (este proyecto) se lo muestra al dueño.
@@ -22,46 +17,30 @@ El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** exter
 | Buzón con guardia | La única forma de publicar, con respaldo y vuelta atrás automáticos |
 | 1Password | Toda llave nueva va solo ahí, en una bóveda por proyecto |
 
-## Reglas
-1. Nunca quedarse quieto.
-2. Una sola revisión por entrega. El 15-nov, 121 de 156 cambios eran revisiones entre chats.
-3. Primero la Imagen, aprobada por el dueño.
-4. Una sola pregunta al dueño: a/b, con una recomendada.
-5. No pedir llaves nuevas.
-6. Nada real (correos, cobros, clientes, borrar) sin permiso, uno por uno.
-7. Aviso antes de cargas pesadas.
-8. Nada de comandos que pidan clic de aprobación.
-9. Una sola publicación a la vez.
-10. Cambio de turno al % de memoria que elija el dueño (recomendado 50 %; puede escoger otro).
-11. Recibo de terminado: sin prueba anotada no está hecho. La idea viene de Mission Control, de builderz-labs, con licencia MIT.
-12. **Todo lo del dueño pasa por el panel.** Lo que se le pregunte en cualquier chat va también, al momento, a «Te toca»; ahí contesta Sí / No / «No entiendo».
-13. **Preguntas que se entienden solas, específicas y con recomendación:** `N. ¿Pregunta corta y específica? Contexto: qué es y por qué se pregunta (nombres y números reales). Si dices Sí: qué pasa. Si dices No: qué pasa. Te recomiendo: Sí/No/A/B, porque … (#n Módulo) (fotos: carpeta/)`. El panel marca el botón recomendado con ★. Sin siglas ni nombres técnicos; para escoger, «A/B: A) … · B) …». Lo ya decidido no se pregunta: se pregunta solo «¿lo publico?».
-14. **«No entiendo»** = reescribir la pregunta más sencilla, con otro título, en la siguiente vuelta.
-15. **Fotos con su carpeta y subidas a GitHub** (`git add -f`). Sin fotos no se pide un visto bueno.
-16. **Latido de todos, siempre (Claude y ChatGPT):** cada vuelta del Coordinador escribe el estado de todos sus chats con su energía (ver `LATIDO.md`). «Sin dato» solo si de verdad no se puede medir.
-17. **Tutorial siempre:** toda pantalla nueva trae su paso a paso (como el de Flowz).
-18. **Un solo chat de supervisor/planeación a la vez.** Antes de abrir otro, cerrar el viejo y sus tareas programadas: dos chats se pisan y avisan doble.
-19. **Lo que se publica solo** (una rama que se sube sola) se trabaja en otra rama y pasa con el Sí del dueño.
+## Las 12 reglas
+1. **Nunca quedarse quieto.** Si algo espera, tomar lo siguiente.
+2. **Primero la Imagen** aprobada por el dueño; lo aprobado no se cambia.
+3. **Todo lo del dueño pasa por el panel**, con preguntas que se entienden solas y recomendación → `reglas/PREGUNTAS.md`.
+4. **Una sola revisión por entrega** (el 15-nov, 121 de 156 cambios eran revisiones).
+5. **Recibo de terminado**: sin prueba anotada no está hecho (idea de Mission Control, builderz-labs, MIT).
+6. **Nada llega a la página real sin el Sí del dueño**; una publicación a la vez → `reglas/PUBLICAR.md`.
+7. **Nada real** (correos, cobros, clientes, borrar) sin permiso, uno por uno. **No pedir llaves**: solo en 1Password.
+8. **Nada de comandos que pidan clic** de aprobación; aviso antes de cargas pesadas.
+9. **Cambio de turno** a tiempo y **latido de todos** (Claude y ChatGPT) → `reglas/TURNOS-Y-CHATS.md`.
+10. **Un solo supervisor/planeación** a la vez.
+11. **Tutorial siempre** en cada pantalla nueva.
+12. **Español sencillo** para el dueño: corto, con analogías, palabras de su negocio.
 
-## Arrancar un proyecto nuevo
-1. El dueño dice qué quiere. 2. Se crea el repositorio. 3. Se escriben instrucciones cortas (`AGENTS.md`). 4. Se arma la hoja de módulos. 5. Planeación recomienda el equipo con `documentos/ARMAR-EQUIPO.md` (el dueño dice qué tiene y elige A/B) y el Coordinador abre a los trabajadores. 6. Bóveda en 1Password (la crea el dueño). 7. Despertador y buzón en el servidor (con la Mac del dueño, una sola vez). 8. Se conecta a Flowz Proyectos. 9. El supervisor revisa cada hora.
-
-## Cómo decide el dueño
-El dueño habla con el supervisor, o elige en el panel. Cada respuesta queda en `planeacion/respuestas-arnaldo/AAAA-MM-DD-HHMM.md` con sus palabras. Le toca decidir los diseños, el orden y autorizar lo real. No le tocan los detalles técnicos ni las llaves.
-
-## Señales de alarma → arreglo
-| Señal | Arreglo |
+## Piezas (lee solo las de tu puesto)
+| Pieza | Para quién |
 |---|---|
-| Más de 60 min sin cambios | Ver el último cambio y si alguien espera un clic; despertar al jefe |
-| Esperan al dueño | Juntar la pregunta y llevársela en una línea |
-| Más revisiones que trabajo nuevo | Una revisión por entrega; mover a módulos en 0 % |
-| Se esperan entre sí | El jefe decide quién sigue |
-| Repiten lo mismo | Revisar la instrucción que los manda |
-| Memoria ≥35 % | Relevo y chat nuevo |
-| Pizarrón lleno | Partirlo en piezas |
-| Trabajo en algo prohibido | Dejarlo a un solo chat hasta que el dueño lo autorice |
+| `reglas/PREGUNTAS.md` | Planeación y Coordinador |
+| `reglas/PUBLICAR.md` | Coordinador y Trabajadores |
+| `reglas/TURNOS-Y-CHATS.md` | Todos |
+| `reglas/ALARMAS.md` | Supervisor y Coordinador |
+| `reglas/ARRANCAR.md`, `ARMAR-EQUIPO.md`, `CONECTAR-UN-PROYECTO.md` | Planeación, al empezar un proyecto |
+| `LATIDO.md` | Coordinador (y el despertador) |
+| `reglas/CAMBIOS.md` | Quien mejora el método |
+| `skills/<puesto>/SKILL.md` | Cada puesto |
 
-## Cambios del método (lo más nuevo arriba)
-- **v2.1 · 15-nov-2026 16:4x**: cada pregunta trae **Contexto** y **Te recomiendo** (como en el chat con Claude), muy específica; el panel marca la recomendada con ★.
-- **v2 · 15-nov-2026 tarde** (Flowz y el panel): reglas 12–19. Lecciones: una respuesta dada en un chat no llegó al pizarrón (→ todo por el panel); preguntas con siglas que el dueño no entendió (→ «Si dices Sí / No» y «No entiendo»); fotos que nadie subió (→ carpeta y `git add -f`); un chat de ChatGPT «trabajando» 2 h sin avisar y el panel no lo marcaba (→ latido de todos con energía); dos chats de claude.ai escribiendo a la vez (→ uno solo); un PR viejo que chocaba (→ archivos del método sin tocar la hoja de módulos del Coordinador).
-- **v1 · 15-nov-2026 mañana** (LexFree): reglas 1–11.
+**Tamaños (como el pizarrón):** este archivo ≤ 4,000 letras; cada pieza ≤ 3,000. Si algo no cabe, se aprieta o se manda a su pieza.
