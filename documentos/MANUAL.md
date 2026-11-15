@@ -33,7 +33,7 @@ El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** exter
 10. Cambio de turno al % de memoria que elija el dueño (recomendado 50 %; puede escoger otro).
 11. Recibo de terminado: sin prueba anotada no está hecho. La idea viene de Mission Control, de builderz-labs, con licencia MIT.
 12. **Todo lo del dueño pasa por el panel.** Lo que se le pregunte en cualquier chat va también, al momento, a «Te toca»; ahí contesta Sí / No / «No entiendo».
-13. **Preguntas que se entienden solas:** `N. ¿Pregunta corta? Si dices Sí: qué pasa. Si dices No: qué pasa. (#n Módulo) (fotos: carpeta/)`. Sin siglas ni nombres técnicos; para escoger, «A/B: A) … · B) …». Lo ya decidido no se pregunta: se pregunta solo «¿lo publico?».
+13. **Preguntas que se entienden solas, específicas y con recomendación:** `N. ¿Pregunta corta y específica? Contexto: qué es y por qué se pregunta (nombres y números reales). Si dices Sí: qué pasa. Si dices No: qué pasa. Te recomiendo: Sí/No/A/B, porque … (#n Módulo) (fotos: carpeta/)`. El panel marca el botón recomendado con ★. Sin siglas ni nombres técnicos; para escoger, «A/B: A) … · B) …». Lo ya decidido no se pregunta: se pregunta solo «¿lo publico?».
 14. **«No entiendo»** = reescribir la pregunta más sencilla, con otro título, en la siguiente vuelta.
 15. **Fotos con su carpeta y subidas a GitHub** (`git add -f`). Sin fotos no se pide un visto bueno.
 16. **Latido de todos, siempre (Claude y ChatGPT):** cada vuelta del Coordinador escribe el estado de todos sus chats con su energía (ver `LATIDO.md`). «Sin dato» solo si de verdad no se puede medir.
@@ -60,5 +60,6 @@ El dueño habla con el supervisor, o elige en el panel. Cada respuesta queda en 
 | Trabajo en algo prohibido | Dejarlo a un solo chat hasta que el dueño lo autorice |
 
 ## Cambios del método (lo más nuevo arriba)
+- **v2.1 · 15-nov-2026 16:4x**: cada pregunta trae **Contexto** y **Te recomiendo** (como en el chat con Claude), muy específica; el panel marca la recomendada con ★.
 - **v2 · 15-nov-2026 tarde** (Flowz y el panel): reglas 12–19. Lecciones: una respuesta dada en un chat no llegó al pizarrón (→ todo por el panel); preguntas con siglas que el dueño no entendió (→ «Si dices Sí / No» y «No entiendo»); fotos que nadie subió (→ carpeta y `git add -f`); un chat de ChatGPT «trabajando» 2 h sin avisar y el panel no lo marcaba (→ latido de todos con energía); dos chats de claude.ai escribiendo a la vez (→ uno solo); un PR viejo que chocaba (→ archivos del método sin tocar la hoja de módulos del Coordinador).
 - **v1 · 15-nov-2026 mañana** (LexFree): reglas 1–11.
