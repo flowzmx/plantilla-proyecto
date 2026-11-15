@@ -10,6 +10,7 @@ El latido es una notita por chat, cada 15 minutos, en la rama aparte `activador-
   "quien": "chat",
   "cuenta_github": null,
   "ia": "codex",
+  "modelo": "GPT-5 Codex",
   "hora": "2026-11-15T15:30:00Z",
   "estado": "trabajando",
   "tarea": "Portada #2, opción A",
@@ -23,6 +24,7 @@ El latido es una notita por chat, cada 15 minutos, en la rama aparte `activador-
 
 - `quien`: `chat` o `persona`. Si es una persona, `cuenta_github` lleva su usuario de GitHub (para los colaboradores con su propio Codex).
 - `estado`: `trabajando` | `en espera` | `apagado` | `solo ver`.
+- `modelo`: el modelo exacto que usa el chat (p. ej. «Opus 5.5», «GPT-5 Codex»); el panel lo enseña bien visible. Si no se sabe, `null`.
 - `memoria_usada_pct`: si no hay dato, va `null`. **Nunca se inventa.**
 - Nada de texto de conversación, llaves, rutas privadas ni correos.
 
