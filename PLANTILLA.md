@@ -9,7 +9,7 @@ Repositorio plantilla. **No se trabaja aquí:** se crea un proyecto nuevo desde 
    - `{{idea}}`: la idea del dueño, **con sus palabras, sin resumir**
    - `{{ia_planeacion}}`, `{{ia_coordinador}}`, `{{ia_trabajadores}}`: Claude, ChatGPT o Cualquiera · `{{equipo}}`: 2, 3 o 5 trabajadores
    - `{{relevo}}`: % de memoria para el cambio de turno (recomendado 50; el dueño puede escoger otro)
-   - `{{skills}}` y `{{skills_tabla}}`: qué skills usa cada puesto (copiarlas a `skills/<nombre>/`), o «ninguna»
-3. Crea una ficha por trabajador en `planeacion/chats/1N-trabajador.md` («área por definir»).
+   - `{{disponibles}}`: «- (ninguna todavía)» (las skills de oficio del dueño no van en la plantilla pública)
+3. Crea una ficha por trabajador en `planeacion/chats/1N-trabajador.md` («área por definir»; skill base `skills/trabajador-flowz`).
 4. Borra este archivo (`PLANTILLA.md`) del proyecto nuevo, haz un solo commit en `main` y súbelo.
 5. Lee `AGENTS.md`: eres **Planeación**. Haz `planeacion/encargos/00-propuesta-inicial.md`. **No construyas nada más** hasta que el dueño apruebe.
