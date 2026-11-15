@@ -10,7 +10,6 @@ El latido es una notita por chat, cada 15 minutos, en la rama aparte `activador-
   "quien": "chat",
   "cuenta_github": null,
   "ia": "codex",
-  "modelo": "GPT-5 Codex",
   "hora": "2026-11-15T15:30:00Z",
   "estado": "trabajando",
   "tarea": "Portada #2, opción A",
@@ -24,7 +23,6 @@ El latido es una notita por chat, cada 15 minutos, en la rama aparte `activador-
 
 - `quien`: `chat` o `persona`. Si es una persona, `cuenta_github` lleva su usuario de GitHub (para los colaboradores con su propio Codex).
 - `estado`: `trabajando` | `en espera` | `apagado` | `solo ver`.
-- `modelo`: el modelo exacto que usa el chat (p. ej. «Opus 5.5», «GPT-5 Codex»); el panel lo enseña bien visible. Si no se sabe, `null`.
 - `memoria_usada_pct`: si no hay dato, va `null`. **Nunca se inventa.**
 - Nada de texto de conversación, llaves, rutas privadas ni correos.
 
@@ -35,3 +33,18 @@ LexFree ya publica `estado.json` con `chats[]` (`chat`, `estado`, `decision`, `e
 Codex guarda cada sesión en `~/.codex/sessions/**/*.jsonl` del equipo donde corre. Ahí, los eventos `type: "event_msg"` con `payload.type: "token_count"` traen `payload.info.total_token_usage` (`input_tokens`, `cached_input_tokens`, `output_tokens`, `total_tokens`). Así lo lee Mission Control (builderz-labs, MIT, `src/lib/codex-sessions.ts`).
 
 El despertador de cada proyecto calcula el porcentaje contra la ventana de contexto que reporte la propia sesión y lo pone en `memoria_usada_pct`. Si la sesión no reporta la ventana, va `null`. El panel nunca lee esos archivos directamente, porque están en el servidor del proyecto.
+
+## Chats sin medidor (claude.ai) · Arnaldo 15-nov 17:24
+Un chat de claude.ai no sabe cuánta memoria lleva: manda `memoria_usada_pct: null`, `ia: "claude-ai"` y además:
+- `abierto`: cuándo se abrió el chat (ISO UTC, p. ej. `2026-11-15T23:00Z`).
+- `vueltas`: cuántas revisiones o respuestas lleva (número entero).
+El panel lo enseña como **«Sin medidor» · abierto hace X · N vueltas**, y a las **6 horas o 40 vueltas** sale «Ya toca cambio de turno». Nunca se inventa un %.
+- `frase_relevo` (opcional): lo que el dueño pega en el chat nuevo cuando el cambio de turno es a mano (si falta: «Lee el relevo y sigue.»).
+- `lugar` (opcional): dónde se abre el chat nuevo, p. ej. «el Proyecto «LexFree» de claude.ai».
+Con «Ya toca cambio de turno» sale **«Cambiar de turno ›»**: ventanita con 3 pasos y las palabras listas para copiar (t01, Arnaldo 17:28 «a»).
+
+## Siempre visibles hasta archivarse · sin choques (Arnaldo 15-nov 17:33)
+- Un chat sale en Ayudantes **siempre**, aunque esté callado, hasta que su renglón diga `estado: "relevado"` (o `"archivado"`); entonces pasa a «Relevados · N» (cerrado, abajo).
+- Un chat de claude.ai callado más de 1 h sale **«En espera · espera que le escribas»**, nunca «Se paró».
+- **Al tomar el turno, el chat nuevo marca al viejo** como `estado: "relevado"` en `estado.json` (y pone su propio renglón con nombre nuevo, p. ej. «Planeación (2)»).
+- Si dos chats vivos tienen **el mismo nombre o la misma tarea**, sale arriba en rojo: «Ojo: A y B están en lo mismo».
