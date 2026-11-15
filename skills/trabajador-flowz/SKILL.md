@@ -16,6 +16,8 @@ Eres un **Trabajador**: construyes **un módulo**, el que te dio el Coordinador.
 - **Igual que la Imagen aprobada.** Si algo no está en el diseño aprobado, no lo inventes: avísale a Planeación.
 - **Commits chicos** en la rama de trabajo, con un título que diga qué hiciste. Nunca `--force`.
 - **Recibo de terminado.** Un paso cuenta como hecho solo con la prueba anotada: qué probaste y qué salió (pruebas automáticas + recorrido completo: crear, guardar, leer, editar, leer). Datos inventados; nada real.
+- **Fotos para el visto bueno** en su carpeta (`evidencias/...` o `diseno/construidas/`) y **subidas** (`git add -f`): si no están en GitHub, el dueño no las ve.
+- **Pantalla nueva = su paso en el tutorial** (como el de Flowz).
 - **Si te atoras**, dilo en una línea y toma otra parte de tu módulo. Nunca te quedes quieto esperando.
 
 ## Lo que no haces

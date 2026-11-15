@@ -1,6 +1,6 @@
 # Latido: cómo un chat le dice al panel que está vivo
 
-El latido es una notita por chat, cada 15 minutos, en la rama aparte `activador-estado` del repositorio del proyecto. Así no despierta a nadie. La escribe el despertador del proyecto o el propio chat. El panel solo la lee.
+El latido es una notita por chat, cada 15 minutos, en la rama aparte `activador-estado` del repositorio del proyecto. Así no despierta a nadie. La escribe el despertador del proyecto, el propio chat **o el Coordinador en cada vuelta para todos sus chats** (lo más simple: él ya mide la memoria de cada uno). El panel solo la lee. **Regla v2: siempre, en Claude y en ChatGPT**; un chat «trabajando» sin latido por más de 60 min sale como «Se paró».
 
 ```json
 {
