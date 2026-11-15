@@ -1,6 +1,8 @@
 # Cómo trabajamos con IAs · Manual de Arnaldo
 
-**Método Flowz v2 (15-nov-2026, tarde).** Versión en el repositorio del documento https://claude.ai/artifact/FCSd5JvozCBjj93g5Acss2. Nació en LexFree y se afinó el mismo día con Flowz y el panel. **Se sigue afinando «hasta el 10»** (Arnaldo): cada lección nueva se anota en «Cambios del método» (abajo) y se copia a cada proyecto.
+**Método Flowz v2 (15-nov-2026, tarde).** Versión en el repositorio del documento https://claude.ai/artifact/FCSd5JvozCBjj93g5Acss2. Nació en LexFree y se afinó el mismo día con Flowz y el panel. **Se sigue afinando «hasta el 10»** (Arnaldo): cada lección nueva se anota en «Cambios del método» (abajo).
+
+**Un solo reglamento para todos (Arnaldo, 15-nov):** el método vive **solo aquí** (`flowzmx/plantilla-proyecto`, público). Cada proyecto lo **lee de aquí** al empezar cada chat y en cada vuelta del Coordinador: https://raw.githubusercontent.com/flowzmx/plantilla-proyecto/main/documentos/MANUAL.md (versión en `METODO-VERSION`). Si la versión de aquí es más nueva que la del proyecto, el Coordinador copia `skills/` y `documentos/` de aquí en su siguiente vuelta y anota la versión. Ningún proyecto cambia el método por su cuenta: las mejoras se proponen aquí.
 
 ## Para qué sirve
 Hace que varias IAs trabajen solas y sin pararse en un proyecto. El dueño solo toma las decisiones de dueño. Funciona con cualquier IA (ChatGPT/Codex, Claude o la que siga).
