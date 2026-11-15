@@ -30,7 +30,7 @@ El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** exter
 7. Aviso antes de cargas pesadas.
 8. Nada de comandos que pidan clic de aprobación.
 9. Una sola publicación a la vez.
-10. Cambio de turno al % de memoria que elija el dueño (recomendado 40 %, nunca más de 50 %).
+10. Cambio de turno al % de memoria que elija el dueño (recomendado 50 %; puede escoger otro).
 11. Recibo de terminado: sin prueba anotada no está hecho. La idea viene de Mission Control, de builderz-labs, con licencia MIT.
 
 ## Arrancar un proyecto nuevo

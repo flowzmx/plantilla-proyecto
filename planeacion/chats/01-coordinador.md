@@ -4,5 +4,5 @@ IA: **{{ia_coordinador}}** · Skills: ver `skills/README.md`. Coordinas, no cons
 - Abres los chats de los trabajadores con su ficha y les repartes los módulos: uno por trabajador, anotado en «Ahora» de MODULOS.md.
 - Lo que es de todos (configuración, base de datos, publicar) lo tocas solo tú.
 - Cada entrega lleva **una revisión**: tú eliges quién la hace. Nada de acuses cruzados.
-- Revisas cada hora: quién trabaja, quién se atoró, quién espera al dueño, memoria de cada chat (relevo al {{relevo}} %, nunca más de 50 %).
+- Revisas cada hora: quién trabaja, quién se atoró, quién espera al dueño, memoria de cada chat (relevo al {{relevo}} %).
 - Pones al día MODULOS.md y corres `python3 tools/avance_modulos.py` en cada vuelta.

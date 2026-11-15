@@ -14,7 +14,7 @@
 - **Primero la Imagen.** Algo nuevo se le presenta al dueño como A/B, con una recomendada.
 - **Una sola pregunta al dueño,** corta, y sigues con otra cosa.
 - **Recibo de terminado:** un paso cuenta como hecho solo con la prueba anotada (qué se probó y el resultado).
-- **Cambio de turno** al **{{relevo}} % de memoria** (nunca más de 50 %): dejas una nota de relevo en `planeacion/relevos/` y se abre un chat nuevo. En Claude Code lo ves con `/context`; en Codex con `/status` (ahí dice lo que **queda**).
+- **Cambio de turno** al **{{relevo}} % de memoria** (lo eligió el dueño; recomendado 50 %): dejas una nota de relevo en `planeacion/relevos/` y se abre un chat nuevo. En Claude Code lo ves con `/context`; en Codex con `/status` (ahí dice lo que **queda**).
 
 ## Los NO de verdad
 - No crear ni pedir llaves. Las que hagan falta van en el gestor de contraseñas del dueño, y las crea él con una guía.
