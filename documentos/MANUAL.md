@@ -31,6 +31,9 @@ El proyecto funciona como una obra. **Dueño** (decide) → **Supervisor** exter
 11. **Tutorial siempre** en cada pantalla nueva.
 12. **Español sencillo** para el dueño: corto, con analogías, palabras de su negocio.
 
+## Tu hoja (empieza aquí)
+Cada chat lee **solo la hoja de su puesto** al empezar: `hojas/PLANEACION.md`, `hojas/COORDINADOR.md` o `hojas/TRABAJADOR.md` (una página cada una). Lo de abajo es de consulta, solo si hace falta.
+
 ## Piezas (lee solo las de tu puesto)
 | Pieza | Para quién |
 |---|---|
