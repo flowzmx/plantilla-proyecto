@@ -14,3 +14,6 @@ En su carpeta y **subidas a GitHub** (`git add -f`). Sin fotos no se pide un vis
 
 ## Sus respuestas
 Llegan a `planeacion/respuestas-*/AAAA-MM-DD-HHMM.md` (commit «Decisión del dueño: …»). Se leen en cada vuelta y se actúa; lo contestado sale de «Te toca». **«No entiendo»** = reescribir la pregunta más sencilla, con otro título, en la siguiente vuelta.
+
+## Buzón de Planeación (cuando no puede escribir en el proyecto)
+Si el dueño contesta en un chat de **claude.ai** y Planeación no puede escribir en el repositorio del proyecto, deja la respuesta en **`flowzmx/flowz-proyectos` › `planeacion/buzon/<proyecto>/AAAA-MM-DD-HHMM-<tema>.md`** (`<proyecto>` = el `slug` de `proyectos.json`: `flowz`, `lexfree`…). El Coordinador lo lee **en cada vuelta** (en el servidor: `/opt/flowz-proyectos/app/planeacion/buzon/<proyecto>/`, que se actualiza solo cada 5 min; si no, `git pull` de flowz-proyectos), copia lo nuevo a sus `respuestas-*`, actúa y anota «leído» en la bitácora. Así el dueño **nunca copia y pega** recados.

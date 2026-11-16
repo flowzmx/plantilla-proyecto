@@ -31,6 +31,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.10 · 16-nov-2026 · Un solo buzón y lista para gente nueva
+- **Antes:** cuando el dueño contestaba en claude.ai, la respuesta quedaba donde el Coordinador no la alcanzaba a leer, y el dueño tenía que copiar y pegar recados. Las reglas se habían ido alargando.
+- **Qué pasó:** el 16-nov el Coordinador de Flowz no encontró dos respuestas del dueño y hubo que pegárselas a mano. Y el dueño quiere la prueba más importante: que otra persona se conecte con su propia cuenta y trabaje coordinada.
+- **Ahora:** las respuestas que no se pueden escribir en el proyecto van a un **buzón** que el Coordinador lee en cada vuelta: el dueño nunca copia recados. Hay una **guía de una página para entrar al equipo**. Y las reglas de turnos quedaron más cortas, sin perder ninguna.
+
 ### v3.9 · 16-nov-2026 · Despertador de afuera
 - **Antes:** el Coordinador ponía su revisión cada 30 minutos con un reloj que vive dentro de su propio chat.
 - **Qué pasó:** de madrugada la nube «durmió» el chat del Coordinador de Flowz, su reloj se apagó con él y nadie revisó nada por más de 4 horas. Planeación, que usaba una alarma de afuera, sí siguió despierta toda la noche.
