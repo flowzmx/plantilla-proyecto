@@ -1,4 +1,4 @@
-"""Publica una revisión del pizarrón de Flowz Proyectos (copiado de LexFree)."""
+"""Publica una revisión del pizarrón de Flowz Proyectos ."""
 import argparse
 import fcntl
 import os

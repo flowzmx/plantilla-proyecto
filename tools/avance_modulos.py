@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Avance por módulo: una sola fuente (planeacion/MODULOS.md) → planeacion/avance-modulos.json. Copiado de LexFree.
+"""Avance por módulo: una sola fuente (planeacion/MODULOS.md) → planeacion/avance-modulos.json.
 
 Lee planeacion/MODULOS.md y escribe el JSON que lee la pantalla /avance
-(misma idea que «Nuestros módulos» de Flowz, ejecucion/avance/desde_modulos.py).
+(misma idea que «Nuestros módulos» del panel).
 
 - pasos  = Imagen → Construido → Probado → Revisión final → Publicado.
 - fases  = secciones «## 1. …», «## 2. …» que tienen la tabla de 5 pasos.
 - ✅ hecho · 🔶 a medias · ⬜ falta · — no aplica (cuenta como hecho).
-- falta  = «Siguiente paso» (con «Qué falta» como línea) + lo de «Te toca, Arnaldo» que nombra el #.
+- falta  = «Siguiente paso» (con «Qué falta» como línea) + lo de «Te toca, <dueño>» que nombra el #.
 - hecho  = se conserva la historia del JSON anterior (MODULOS no la lleva).
 - resumen.ahora / resumen.despues = secciones «## Ahora» y «## Después» de MODULOS
-  (o --ahora / --despues); resumen.te_toca = lista «## Te toca, Arnaldo».
+  (o --ahora / --despues); resumen.te_toca = lista «## Te toca, <dueño>».
 - Si MODULOS dice «Borrador:» arriba, la pantalla lo avisa.
 
 Uso, en cada revisión de Planeación, después de poner al día MODULOS.md:
     python3 tools/avance_modulos.py            # escribe el JSON
     python3 tools/avance_modulos.py --revisar  # solo comprueba
-Rutas: LEXFREE_MODULOS (entrada) y LEXFREE_AVANCE_FILE (salida).
+Rutas: AVANCE_MODULOS (entrada) y AVANCE_SALIDA (salida). Nombre del dueño: NOMBRE_DUENO (por omisión «Dueño»).
 """
 import argparse
 import json
@@ -28,8 +28,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
-MODULOS = Path(os.environ.get('LEXFREE_MODULOS', RAIZ / 'planeacion' / 'MODULOS.md'))
-SALIDA = Path(os.environ.get('LEXFREE_AVANCE_FILE', RAIZ / 'planeacion' / 'avance-modulos.json'))
+MODULOS = Path(os.environ.get('AVANCE_MODULOS') or (RAIZ / 'planeacion' / 'MODULOS.md'))
+SALIDA = Path(os.environ.get('AVANCE_SALIDA') or (RAIZ / 'planeacion' / 'avance-modulos.json'))
+DUENO = os.environ.get('NOMBRE_DUENO', 'Dueño')
 
 PASOS = ['Imagen', 'Construido', 'Probado', 'Revisión final', 'Publicado']
 COLUMNAS = ['#', 'Módulo', *PASOS, 'Qué falta', 'Siguiente paso']
@@ -84,7 +85,7 @@ def leer(md):
             continue
         if l.startswith('## '):
             seccion = None
-            if l.startswith('## Te toca,'):  # «Te toca, Arnaldo» o el nombre del dueño (proyectos de clientes)
+            if l.startswith('## Te toca,'):  # «Te toca, <nombre del dueño>»
                 for t in lineas[i + 1:]:
                     if t.startswith('## '):
                         break
@@ -100,7 +101,7 @@ def leer(md):
             c = celdas(l)
             if c[0] == '#':
                 if c != COLUMNAS and 'Imagen' not in c:
-                    seccion = None  # otra tabla (p. ej. «Al final» de Flowz): no son módulos de 5 pasos
+                    seccion = None  # otra tabla (p. ej. «Al final»): no son módulos de 5 pasos
                     continue
                 if c != COLUMNAS:
                     raise ValueError(f'columnas distintas en «{seccion["nombre"]}»: {c}')
@@ -150,11 +151,11 @@ def armar(md, anterior, ahora=None, despues=None, ahora_utc=None):
     for m in modulos:
         falta = []
         if m['siguiente'] and m['siguiente'] != '—':
-            quien = 'Arnaldo' if re.match(r'^Arnaldo\b', m['siguiente']) else 'Equipo'
+            quien = DUENO if re.match(rf'^({re.escape(DUENO)}|[Dd]ueño)\b', m['siguiente']) else 'Equipo'
             falta.append({'que': m['siguiente'], 'quien': quien, 'linea': m['que_falta']})
         for t in te_toca:
             if re.search(rf'#{re.escape(m["num"])}(?![0-9a-z])', t):
-                falta.append({'que': t, 'quien': 'Arnaldo', 'linea': 'Te toca, Arnaldo (planeacion/MODULOS.md)'})
+                falta.append({'que': t, 'quien': DUENO, 'linea': f'Te toca, {DUENO} (planeacion/MODULOS.md)'})
         salida.append({'id': m['id'], 'nombre': m['nombre'], 'fase': m['fase'], 'pasos': m['pasos'],
                        'hecho': viejo.get(m['id'], {}).get('hecho', []), 'falta': falta})
     resumen = dict(anterior.get('resumen') or {})

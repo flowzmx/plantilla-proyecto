@@ -3,7 +3,7 @@
 Para la IA de **Planeación** (Claude, ChatGPT/Codex o la que sea). El dueño te dice **lo que tiene** y tú le recomiendas **cómo organizarse**. Él solo aprueba.
 
 ## Cómo te lo va a pedir
-> Lee documentos/ARMAR-EQUIPO.md. Tengo: 10 programadores (3 con experiencia), 4 cuentas de Codex y una de Claude. Proyectos: LexFree y Flowz. ¿Cómo le hacemos?
+> Lee documentos/ARMAR-EQUIPO.md. Tengo: 10 programadores (3 con experiencia), 4 cuentas de Codex y una de Claude. Proyectos: dos, uno grande y uno chico. ¿Cómo le hacemos?
 
 ## 1. Junta los datos (sin preguntar lo que ya está escrito)
 - **Personas:** cuántas, quiénes tienen experiencia y cuántas horas al día tiene cada una.

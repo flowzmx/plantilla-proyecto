@@ -1,6 +1,6 @@
 # Conectar un proyecto que ya existe a Flowz Proyectos
 
-Para la IA de un proyecto que ya está en marcha (Flowz, LexFree, Flowsites u otro). El dueño quiere manejar **todos sus proyectos** desde Flowz Proyectos (proyectos.flowz.mx). El panel **solo lee GitHub**: si estos archivos existen con esta forma, el proyecto se ve completo. **No se toca el código del proyecto.**
+Para la IA de un proyecto que ya está en marcha (el que sea). El dueño quiere manejar **todos sus proyectos** desde Flowz Proyectos (proyectos.flowz.mx). El panel **solo lee GitHub**: si estos archivos existen con esta forma, el proyecto se ve completo. **No se toca el código del proyecto.**
 
 ## Reglas
 - **Propuesta de cambio**: trabaja en una rama nueva y abre un pull request; el dueño lo aprueba. Nada directo a la rama principal.
@@ -20,7 +20,7 @@ Para la IA de un proyecto que ya está en marcha (Flowz, LexFree, Flowsites u ot
    - Fichas: `planeacion/chats/00-planeacion.md`, `01-coordinador.md`, `11-trabajador.md`, `12-trabajador.md`…
    - Relevos: `planeacion/relevos/AAAA-MM-DD-HHMM-<puesto>.md` (ej. `2026-11-15-1325-trabajador-2.md`).
 5. **Skills**: `skills/planeacion-flowz/`, `skills/coordinador-flowz/`, `skills/trabajador-flowz/` (cópialas de https://github.com/flowzmx/plantilla-proyecto/tree/main/skills) y las del proyecto en `skills/<nombre>/SKILL.md`, anotadas en `skills/README.md`.
-6. **Latidos** (opcional, para «quién trabaja» y la barra de memoria): rama aparte `activador-estado` con `estado.json` (`chats[]` con `chat`, `estado`, `ia`, `memoria_usada_pct`, `espera_a_arnaldo`). Si no hay despertador, el panel muestra «sin dato».
+6. **Latidos** (opcional, para «quién trabaja» y la barra de memoria): rama aparte `activador-estado` con `estado.json` (`chats[]` con `chat`, `estado`, `ia`, `memoria_usada_pct`, `espera_al_dueno`). Si no hay despertador, el panel muestra «sin dato».
 7. **Reglas para los chats**: `AGENTS.md` corto (qué leer primero, los tres puestos, una sola revisión por entrega, relevo al % que eligió el dueño, los «No» de verdad). Toma como base el de https://github.com/flowzmx/plantilla-proyecto.
 
 ## Al terminar, dile al dueño (en una línea cada uno)

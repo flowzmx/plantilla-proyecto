@@ -12,6 +12,16 @@ Era como tener una oficina llena de gente muy capaz, pero sin jefe, sin pizarró
 
 El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que algo fallaba. Nada se inventó en el escritorio: **cada regla nació de un problema real**.
 
+**Al principio el objetivo era solo coordinar.** Todos los chats usaban el modelo de IA más potente (y más caro), y la verdad funcionaba muy bien. Pero la cuenta llegaba a su límite antes de terminar la semana y el trabajo se paraba. Así que el método sumó un segundo objetivo que no estaba en el plan: **gastar menos sin trabajar peor**, usando para cada trabajo el modelo justo, como en una obra donde no pones al arquitecto a cargar ladrillos.
+
+## Para qué sirve
+
+- Para que **una persona que no programa** pueda construir y mantener su propio sistema con varios chats de IA a la vez, sin volverse loca.
+- Para que **varias personas**, cada una con su propia cuenta de IA, trabajen en el mismo proyecto sin pisarse.
+- Para que el dueño **solo decida** (Sí / No) y no lleve recados.
+- Para que el trabajo **no se pare**: si un chat se cansa, se cae o se le acaba el crédito, otro sigue donde se quedó.
+- Para **gastar lo menos posible**: el modelo caro piensa y revisa; los baratos construyen.
+
 ## Cómo funciona hoy
 
 - **El dueño decide.** No programa ni lleva recados: contesta Sí o No en su panel (proyectos.flowz.mx), con fotos, contexto y una recomendación.
@@ -31,14 +41,19 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.11 · 16-nov-2026 · Más general, sin nombres
+- **Antes:** la historia del método nombraba personas y proyectos.
+- **Qué pasó:** este método es público y sirve para cualquier proyecto; los nombres no ayudaban a entenderlo y podían comprometer a quien lo usa.
+- **Ahora:** se habla de para qué sirve y cómo se usa, sin nombres. Y la historia cuenta que, además de coordinar, el método se volvió una forma de **gastar menos**.
+
 ### v3.10 · 16-nov-2026 · Un solo buzón y lista para gente nueva
 - **Antes:** cuando el dueño contestaba en claude.ai, la respuesta quedaba donde el Coordinador no la alcanzaba a leer, y el dueño tenía que copiar y pegar recados. Las reglas se habían ido alargando.
-- **Qué pasó:** el 16-nov el Coordinador de Flowz no encontró dos respuestas del dueño y hubo que pegárselas a mano. Y el dueño quiere la prueba más importante: que otra persona se conecte con su propia cuenta y trabaje coordinada.
+- **Qué pasó:** el 16-nov el Coordinador de un proyecto no encontró dos respuestas del dueño y hubo que pegárselas a mano. Y el dueño quiere la prueba más importante: que otra persona se conecte con su propia cuenta y trabaje coordinada.
 - **Ahora:** las respuestas que no se pueden escribir en el proyecto van a un **buzón** que el Coordinador lee en cada vuelta: el dueño nunca copia recados. Hay una **guía de una página para entrar al equipo**. Y las reglas de turnos quedaron más cortas, sin perder ninguna.
 
 ### v3.9 · 16-nov-2026 · Despertador de afuera
 - **Antes:** el Coordinador ponía su revisión cada 30 minutos con un reloj que vive dentro de su propio chat.
-- **Qué pasó:** de madrugada la nube «durmió» el chat del Coordinador de Flowz, su reloj se apagó con él y nadie revisó nada por más de 4 horas. Planeación, que usaba una alarma de afuera, sí siguió despierta toda la noche.
+- **Qué pasó:** de madrugada la nube «durmió» el chat del Coordinador de un proyecto, su reloj se apagó con él y nadie revisó nada por más de 4 horas. Planeación, que usaba una alarma de afuera, sí siguió despierta toda la noche.
 - **Ahora:** todos los chats usan una alarma de afuera, como pedirle a alguien que te llame a una hora: aunque el chat se duerma, la llamada llega. Y el vigía del plan B, en el servidor, avisa si aun así alguien se queda callado.
 
 ### v3.8 · 16-nov-2026 · Qué modelo usa cada puesto
@@ -73,7 +88,7 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ### v3.2 · 15-nov-2026 · Turnos sin choques
 - **Antes:** dos chats con el mismo nombre podían trabajar a la vez sin saberlo.
-- **Qué pasó:** dos «Supervisores» de LexFree se pisaban, y el viejo seguía haciendo tareas.
+- **Qué pasó:** dos «Supervisores» del mismo proyecto se pisaban, y el viejo seguía haciendo tareas.
 - **Ahora:** cada turno lleva su número, el nuevo marca al viejo como relevado y el panel avisa en rojo si dos chats van a lo mismo.
 
 ### v3.1 y v3 · 15-nov-2026 · El método en piezas chicas
@@ -88,7 +103,7 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ### v1 · 15-nov-2026 · Nace el Método Flowz
 - **Antes:** cada proyecto tenía sus propias reglas, escritas a la carrera.
-- **Qué pasó:** lo que se aprendía en Flowz no le servía a LexFree, y al revés.
+- **Qué pasó:** lo que se aprendía en un proyecto no le servía al otro, y al revés.
 - **Ahora:** el método vive en un solo lugar (la plantilla) y todos los proyectos lo usan: Planeación, Coordinador y Trabajadores, con el panel para el dueño.
 
 ### Antes del método · 7 al 13-nov-2026 · Las primeras reglas
