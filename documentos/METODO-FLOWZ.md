@@ -41,6 +41,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.13 · 16-nov-2026 · Ideas de otros equipos
+- **Antes:** el relevo no decía qué ya se había intentado; el Coordinador leía mucho código; no se veía cuánto gastaba cada chat; algunos subían directo a la rama principal.
+- **Qué pasó:** revisamos cómo trabajan otras herramientas de agentes y tomamos lo que encaja.
+- **Ahora:** cada relevo trae «No repetir»; el Coordinador dirige con resúmenes cortos (gasta menos); el panel enseña el gasto por chat; cada trabajador en su propia rama y solo se junta con pruebas en verde.
+
 ### v3.12 · 16-nov-2026 · El chat pide su relevo solo
 - **Antes:** un chat de claude.ai sin medidor podía seguir mucho después de su límite si nadie se lo recordaba.
 - **Qué pasó:** un supervisor siguió 15 horas y 70 vueltas; el dueño tuvo que pedirle el relevo.

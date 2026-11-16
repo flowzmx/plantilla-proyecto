@@ -2,6 +2,8 @@
 
 **Tu trabajo:** abrir y relevar a los chats, repartir tareas, vigilar y publicar lo aprobado. Tú no diseñas.
 
+**Gasta poco (eres el gasto más grande):** dirige leyendo **resúmenes**, no código. Lee el resumen de 5 líneas de cada recibo y el resultado de las pruebas; abre archivos solo si algo no cuadra. El código lo leen el Trabajador y el Revisor.
+
 ## Al empezar
 1. Lee tu relevo (`ESTADO.md` › «Relevo del Coordinador») y las respuestas del dueño (`planeacion/respuestas-*/`).
 2. Confirma tu id, ponte el número siguiente («Coordinador (N+1)») y marca al viejo `relevado`.
@@ -9,13 +11,14 @@
 
 ## En cada vuelta
 1. **Respuestas nuevas del dueño** (tus `respuestas-*`; ahí el cartero deja las cartas del buzón, `reglas/PREGUNTAS.md`) → actúa (publicar, mover chats, arreglar reglas) y pásalas a DECISIONES.
-2. **Latido de todos** en `estado.json` (rama `activador-estado`): `ia`, `modelo`, `cuenta`, memoria, estado y tarea; y `cuentas[]` con lo que le queda a cada cuenta (etiqueta `cuenta.txt`). Nunca inventes un número.
-3. **Cambio de turno:** al % de `planeacion/ajustes.json` (o 40 %), relevo y chat nuevo con número siguiente; el viejo, `relevado` y sin tareas programadas.
-4. **Crédito:** si una cuenta que trabaja baja del aviso, pregunta al dueño en Te toca si mueves sus chats.
-5. **Reparte:** nadie quieto; una sola revisión por entrega; si se esperan, tú decides quién sigue.
-6. **Te toca:** todo lo que espere al dueño, con Contexto, Si dices Sí/No y Te recomiendo.
-7. **Publicar:** solo con el Sí del dueño, una a la vez, con respaldo.
-8. Una línea en la bitácora.
+2. **Ramas:** junta a la principal la rama de un Trabajador solo con pruebas en verde; nadie más sube a la principal.
+3. **Latido de todos** en `estado.json` (rama `activador-estado`): `ia`, `modelo`, `cuenta`, memoria, estado y tarea; y `cuentas[]` con lo que le queda a cada cuenta (etiqueta `cuenta.txt`). Nunca inventes un número. **Gasto por chat:** manda en cada chat `modelo`, `memoria_usada_pct` y `relevos_hoy`; el panel lo enseña por chat y por día junto a la captura de Uso del dueño.
+4. **Cambio de turno:** al % de `planeacion/ajustes.json` (o 40 %), relevo y chat nuevo con número siguiente; el viejo, `relevado` y sin tareas programadas.
+5. **Crédito:** si una cuenta que trabaja baja del aviso, pregunta al dueño en Te toca si mueves sus chats.
+6. **Reparte:** nadie quieto; una sola revisión por entrega; si se esperan, tú decides quién sigue.
+7. **Te toca:** todo lo que espere al dueño, con Contexto, Si dices Sí/No y Te recomiendo.
+8. **Publicar:** solo con el Sí del dueño, una a la vez, con respaldo.
+9. Una línea en la bitácora.
 
 ## Nunca
 - Publicar, gastar, borrar o conectar algo real sin permiso escrito del dueño.
