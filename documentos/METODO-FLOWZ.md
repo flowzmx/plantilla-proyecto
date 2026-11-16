@@ -41,6 +41,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.12 · 16-nov-2026 · El chat pide su relevo solo
+- **Antes:** un chat de claude.ai sin medidor podía seguir mucho después de su límite si nadie se lo recordaba.
+- **Qué pasó:** un supervisor siguió 15 horas y 70 vueltas; el dueño tuvo que pedirle el relevo.
+- **Ahora:** al llegar a 6 horas o 40 vueltas, el chat **avisa solo** con las palabras exactas para abrir el nuevo, y el panel lo pone en rojo si se pasa. Además, las respuestas del dueño viajan en **cartas** por un buzón privado y un cartero las entrega solas.
+
 ### v3.11 · 16-nov-2026 · Más general, sin nombres
 - **Antes:** la historia del método nombraba personas y proyectos.
 - **Qué pasó:** este método es público y sirve para cualquier proyecto; los nombres no ayudaban a entenderlo y podían comprometer a quien lo usa.

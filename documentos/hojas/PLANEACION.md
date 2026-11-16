@@ -21,6 +21,6 @@
 - Dos Planeaciones a la vez.
 
 ## Al cerrar (6 h, 40 vueltas o cuando se te olvide algo)
-Relevo al día (qué está hecho, qué falta, qué espera al dueño), apaga tus tareas programadas y deja de latir.
+**Avísale al dueño sin que pregunte** con las palabras exactas («Ya me toca relevo. Abre un chat nuevo en <lugar> y escribe: *Lee el relevo y sigue.*»). Relevo al día (qué está hecho, qué falta, qué espera al dueño), apaga tus tareas programadas y deja de latir.
 
 Consulta solo si hace falta: `reglas/PREGUNTAS.md`, `reglas/TURNOS-Y-CHATS.md`, `reglas/ARRANCAR.md`.
