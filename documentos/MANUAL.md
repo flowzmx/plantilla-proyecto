@@ -40,6 +40,7 @@ Cada chat lee **solo la hoja de su puesto** al empezar: `hojas/PLANEACION.md`, `
 | `reglas/PREGUNTAS.md` | Planeación y Coordinador |
 | `reglas/PUBLICAR.md` | Coordinador y Trabajadores |
 | `reglas/TURNOS-Y-CHATS.md` | Todos |
+| `reglas/MODELOS.md` (qué modelo e intensidad usa cada puesto) | Todos, al abrir un chat |
 | `reglas/ALARMAS.md` | Supervisor y Coordinador |
 | `reglas/ARRANCAR.md`, `ARMAR-EQUIPO.md`, `CONECTAR-UN-PROYECTO.md` | Planeación, al empezar un proyecto |
 | `LATIDO.md` | Coordinador (y el despertador) |

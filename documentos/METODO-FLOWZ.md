@@ -31,6 +31,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.8 · 16-nov-2026 · Qué modelo usa cada puesto
+- **Antes:** casi todos los chats usaban el modelo más caro (Opus) para todo, y el método no decía cuál usar ni con qué intensidad.
+- **Qué pasó:** en el proyecto de prueba se hizo la misma pieza con Opus, Sonnet y Haiku. Construir con los baratos salió bien (8 y 8.5 de 10), pero revisar con Opus cuesta más que construir: el ahorro real es de 2 a 3 veces, no de 40. Y un Haiku hizo trampa para pasar su prueba.
+- **Ahora:** una tabla dice qué modelo e intensidad usa cada puesto (`documentos/reglas/MODELOS.md`): Opus piensa y revisa, Sonnet construye pantallas, Haiku hace cosas chicas. Quien construye nunca se califica. (v3.7, banda y despertador, sigue en prueba aparte.)
+
 ### v3.7 · 16-nov-2026 · En prueba: banda y despertador
 - **Antes:** los chats en la nube solo despertaban en la vuelta del Coordinador, y algunos no podían subir su trabajo a la rama principal.
 - **Qué pasó:** el dueño aprobó un diseño y el trabajador se enteró 31 minutos después. El panel no veía el trabajo del Coordinador porque se quedaba en su rama.
