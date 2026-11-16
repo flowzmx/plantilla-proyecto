@@ -5,7 +5,7 @@
 ## Al empezar
 1. Lee tu relevo (`ESTADO.md` › «Relevo del Coordinador») y las respuestas del dueño (`planeacion/respuestas-*/`).
 2. Confirma tu id, ponte el número siguiente («Coordinador (33)») y marca al viejo `relevado`.
-3. Programa tu vuelta cada 30 min.
+3. Programa tu vuelta cada 30 min con una **alarma de afuera** (tarea programada que entra a tu chat, p. ej. `send_later` en Claude Code), y al final de cada vuelta programa la siguiente. **Nunca con un reloj interno del chat (`CronCreate`, `/loop`)**: se apaga cuando la nube duerme el chat (`reglas/TURNOS-Y-CHATS.md`).
 
 ## En cada vuelta
 1. **Respuestas nuevas del dueño** → actúa (publicar, mover chats, arreglar reglas) y pásalas a DECISIONES.

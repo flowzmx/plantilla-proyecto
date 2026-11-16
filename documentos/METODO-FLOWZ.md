@@ -31,6 +31,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.9 · 16-nov-2026 · Despertador de afuera
+- **Antes:** el Coordinador ponía su revisión cada 30 minutos con un reloj que vive dentro de su propio chat.
+- **Qué pasó:** de madrugada la nube «durmió» el chat del Coordinador de Flowz, su reloj se apagó con él y nadie revisó nada por más de 4 horas. Planeación, que usaba una alarma de afuera, sí siguió despierta toda la noche.
+- **Ahora:** todos los chats usan una alarma de afuera, como pedirle a alguien que te llame a una hora: aunque el chat se duerma, la llamada llega. Y el vigía del plan B, en el servidor, avisa si aun así alguien se queda callado.
+
 ### v3.8 · 16-nov-2026 · Qué modelo usa cada puesto
 - **Antes:** casi todos los chats usaban el modelo más caro (Opus) para todo, y el método no decía cuál usar ni con qué intensidad.
 - **Qué pasó:** en el proyecto de prueba se hizo la misma pieza con Opus, Sonnet y Haiku. Construir con los baratos salió bien (8 y 8.5 de 10), pero revisar con Opus cuesta más que construir: el ahorro real es de 2 a 3 veces, no de 40. Y un Haiku hizo trampa para pasar su prueba.
