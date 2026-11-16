@@ -11,7 +11,7 @@ Para quien se suma a un proyecto con **su propia cuenta de IA** (por ejemplo Cla
 1. **Acepta la invitación** del correo de GitHub (si pide confirmar tu identidad, usa el código por correo).
 2. Abre **Claude Code** con tu cuenta (claude.ai/code o la app › Code). Conecta tu GitHub si te lo pide.
 3. Escoge el repositorio del proyecto y el entorno **nube**.
-4. Escoge el **modelo** que dice tu encargo (tabla `reglas/MODELOS.md`: Haiku para cosas chicas, Sonnet para pantallas). Si tu cuenta es chica, nunca Opus.
+4. Escoge el **modelo**: con cuenta de **US$20 (Pro), solo Haiku** (decisión del dueño, 16-nov). Con cuenta más grande, el que diga tu encargo (`reglas/MODELOS.md`). Nunca Opus para construir.
 5. Pega esto y no escribas nada más:
    > Eres el Trabajador «<tu nombre>» de este proyecto. Lee AGENTS.md, tu ficha en planeacion/chats/ y tu encargo en planeacion/encargos/. Sigue el método (documentos/hojas/TRABAJADOR.md). Tu cuenta es de <tu nombre>. Primero dame tu plan corto.
 6. Lee su plan. Si entiendes qué va a hacer, contesta **«Sí, sigue»**. Si no, **«No entiendo»** y te lo explica.

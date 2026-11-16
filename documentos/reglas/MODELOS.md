@@ -12,6 +12,9 @@ Desde v3.8 (16-nov-2026). Medido en el proyecto de prueba (`flowzmx/prueba-del-m
 | Trabajador de cosas chicas (guías, tutoriales, textos, arreglos de color o lugar) | Haiku | Media | Medido: 8/10 en un tutorial |
 | Ayudantes (buscar, rondas, avisos) | Haiku | Baja | Trabajo mecánico |
 
+## Cuentas chicas
+Una persona con cuenta de **US$20 (Pro)** trabaja **solo con Haiku** (decisión del dueño, 16-nov-2026): le tocan piezas de «cosas chicas». Si su pieza resulta más grande, sube a una cuenta mayor; no cambia de modelo en su cuenta. Su revisión la hace un Opus de otra cuenta.
+
 ## Reglas de oro
 1. **Quien construye nunca se califica.** Siempre revisa un Opus que no construyó esa pieza.
 2. **Revisión lado a lado en una sola imagen** (lo aprobado junto a lo construido), no de memoria.
