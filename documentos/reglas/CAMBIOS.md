@@ -2,6 +2,7 @@
 
 Cada lección nueva se anota aquí (lo más nuevo arriba): qué pasó y qué regla salió. Al cambiar algo, sube `METODO-VERSION`.
 
+- **v3.4 · 15-nov-2026 18:2x** (el servidor veía una cuenta de Codex con crédito pero sin nombre): cada cuenta en su propia carpeta con etiqueta `cuenta.txt`; sin etiqueta = «sin nombre» y se pregunta.
 - **v3.3 · 15-nov-2026 18:1x** (Arnaldo: «saber quién está conectado, cuánto le queda, cómo rotamos»): cuentas de IA del equipo y su crédito en el latido; panel › Ajustes (`planeacion/ajustes.json`) con cambio de turno, aviso de crédito y «Trabaja / De respaldo»; «Mover chats» a otra cuenta antes de quedarse sin crédito.
 - **v3.2 · 15-nov-2026 17:3x** (LexFree y el panel; Arnaldo: «para que no choquemos»): dos chats de claude.ai con el mismo nombre «Supervisor» se pisaban el latido y el viejo seguía con sus tareas programadas (→ nombre con número en cada turno, el nuevo marca al viejo «relevado», el viejo apaga sus tareas, aviso rojo de choque). Los chats de claude.ai no tienen medidor (→ horas y vueltas; cambio a las 6 h o 40 vueltas). Los de ChatGPT se cansaban sin relevo (→ cambio automático en el servidor; a mano con «Cambiar ›» y las palabras exactas cuando no se puede).
 - **v3.1 · 15-nov-2026 16:5x**: el latido lleva `modelo` (Arnaldo: «el modelo Claude Opus más visible»); el panel lo enseña en su columna.
