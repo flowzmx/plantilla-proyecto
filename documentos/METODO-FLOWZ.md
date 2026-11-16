@@ -31,10 +31,15 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
-### v3.6 · 16-nov-2026 · En prueba: banda y despertador
+### v3.7 · 16-nov-2026 · En prueba: banda y despertador
 - **Antes:** los chats en la nube solo despertaban en la vuelta del Coordinador, y algunos no podían subir su trabajo a la rama principal.
 - **Qué pasó:** el dueño aprobó un diseño y el trabajador se enteró 31 minutos después. El panel no veía el trabajo del Coordinador porque se quedaba en su rama.
 - **Ahora:** en el proyecto de prueba, una «banda» junta sola cada rama a la principal, y un despertador de tres alarmas avisa al chat en minutos. Meta: 15 minutos o menos.
+
+### v3.6 · 15-nov-2026 · Archivar sin perder nada
+- **Antes:** los chats viejos se quedaban abiertos para siempre, por si acaso.
+- **Qué pasó:** se juntaban muchos chats relevados y era difícil saber cuál era el bueno.
+- **Ahora:** un chat viejo se archiva (nunca se borra) solo cuando su sucesor ya aceptó, su nota de relevo está guardada y pasaron 2 horas sin problemas. El activo nunca se toca.
 
 ### v3.5 · 15-nov-2026 · Una hoja por puesto
 - **Antes:** cada chat leía todas las reglas al empezar.

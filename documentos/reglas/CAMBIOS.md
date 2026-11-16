@@ -2,6 +2,7 @@
 
 Cada lección nueva se anota aquí (lo más nuevo arriba): qué pasó y qué regla salió. Al cambiar algo, sube `METODO-VERSION` y agrega su renglón en humano (Antes / Qué pasó / Ahora) en `documentos/METODO-FLOWZ.md`, que es lo que lee el dueño en el panel.
 
+- **v3.6 · 15-nov-2026 20:3x** (LexFree: chats viejos relevados se juntaban y estorbaban; el dueño: «archiva, no borres»): archivar un chat relevado solo con sucesor que aceptó, relevo en GitHub comprobado y 2 h sin problemas; nunca el activo ni uno con relevo dudoso (`reglas/TURNOS-Y-CHATS.md`).
 - **v3.5 · 15-nov-2026 18:3x** (Arnaldo: «¿qué falta para que quede bien, la versión sencilla?»): **una hoja de una página por puesto** (`documentos/hojas/`); cada chat lee solo la suya al empezar y las reglas largas quedan de consulta. Menos lectura = menos errores y menos memoria.
 - **v3.4 · 15-nov-2026 18:2x** (el servidor veía una cuenta de Codex con crédito pero sin nombre): cada cuenta en su propia carpeta con etiqueta `cuenta.txt`; sin etiqueta = «sin nombre» y se pregunta.
 - **v3.3 · 15-nov-2026 18:1x** (Arnaldo: «saber quién está conectado, cuánto le queda, cómo rotamos»): cuentas de IA del equipo y su crédito en el latido; panel › Ajustes (`planeacion/ajustes.json`) con cambio de turno, aviso de crédito y «Trabaja / De respaldo»; «Mover chats» a otra cuenta antes de quedarse sin crédito.
