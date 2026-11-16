@@ -1,6 +1,6 @@
 # Cambios del método Flowz
 
-Cada lección nueva se anota aquí (lo más nuevo arriba): qué pasó y qué regla salió. Al cambiar algo, sube `METODO-VERSION`.
+Cada lección nueva se anota aquí (lo más nuevo arriba): qué pasó y qué regla salió. Al cambiar algo, sube `METODO-VERSION` y agrega su renglón en humano (Antes / Qué pasó / Ahora) en `documentos/METODO-FLOWZ.md`, que es lo que lee el dueño en el panel.
 
 - **v3.5 · 15-nov-2026 18:3x** (Arnaldo: «¿qué falta para que quede bien, la versión sencilla?»): **una hoja de una página por puesto** (`documentos/hojas/`); cada chat lee solo la suya al empezar y las reglas largas quedan de consulta. Menos lectura = menos errores y menos memoria.
 - **v3.4 · 15-nov-2026 18:2x** (el servidor veía una cuenta de Codex con crédito pero sin nombre): cada cuenta en su propia carpeta con etiqueta `cuenta.txt`; sin etiqueta = «sin nombre» y se pregunta.
