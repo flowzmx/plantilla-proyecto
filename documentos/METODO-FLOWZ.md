@@ -41,6 +41,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.14 · 16-nov-2026 · Claude coordina, todos trabajan
+- **Antes:** un proyecto se coordinaba desde ChatGPT y, cuando se paraba, nadie lo despertaba.
+- **Qué pasó:** se quedó parado horas esperando que alguien le escribiera.
+- **Ahora:** el **Coordinador siempre es Claude** (se despierta solo y vigila); los **trabajadores pueden ser Claude o ChatGPT**, según la cuenta que tenga crédito, y los de ChatGPT los lanza el Coordinador sin que el dueño abra chats.
+
 ### v3.13 · 16-nov-2026 · Ideas de otros equipos
 - **Antes:** el relevo no decía qué ya se había intentado; el Coordinador leía mucho código; no se veía cuánto gastaba cada chat; algunos subían directo a la rama principal.
 - **Qué pasó:** revisamos cómo trabajan otras herramientas de agentes y tomamos lo que encaja.

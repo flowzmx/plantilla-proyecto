@@ -12,6 +12,13 @@ Desde v3.8 (16-nov-2026). Medido en el proyecto de prueba (`flowzmx/prueba-del-m
 | Trabajador de cosas chicas (guías, tutoriales, textos, arreglos de color o lugar) | Haiku | Media | Medido: 8/10 en un tutorial |
 | Ayudantes (buscar, rondas, avisos) | Haiku | Baja | Trabajo mecánico |
 
+## Qué IA en cada puesto (v3.14)
+- **Coordinador: siempre Claude Code.** Es el único que se despierta solo (tarea programada desde afuera), ve la memoria de cada chat y abre a sus trabajadores.
+- **Trabajadores: «trabajamos con todo».** Claude (Sonnet/Haiku, tabla de arriba) **o ChatGPT/Codex**, según qué cuenta tenga crédito. Los de Codex los lanza el Coordinador desde el servidor (`codex exec` por encargo, su propia rama, recibo con resumen de 5 líneas), sin que el dueño abra chats; a mano en chatgpt.com solo si algo no se puede.
+- **Revisor:** Claude (Opus) que no construyó, aunque la pieza la haya hecho Codex.
+- Lo que no se ve de Codex desde afuera (memoria, crédito) se anota «no se pudo»; el Coordinador lo vigila por sus entregas y su latido.
+- En prueba con el primer proyecto que trabaja así; se ajusta con lo que se mida.
+
 ## Cuentas chicas
 Una persona con cuenta de **US$20 (Pro)** trabaja **solo con Haiku** (decisión del dueño, 16-nov-2026): le tocan piezas de «cosas chicas». Si su pieza resulta más grande, sube a una cuenta mayor; no cambia de modelo en su cuenta. Su revisión la hace un Opus de otra cuenta.
 
