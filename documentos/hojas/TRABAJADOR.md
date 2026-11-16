@@ -15,6 +15,8 @@
 - Avisos en el pizarrón (pedido o bitácora), no por mensaje.
 - Tu latido lo manda el Coordinador; si te pregunta, dile tu tarea en una línea.
 
+- **Cerca del límite de tu cuenta** (Claude avisa antes de cortar): deja tu relevo **de inmediato**, commit y push, y anota «límite de cuenta» en el pedido.
+
 ## Nunca
 - Publicar tú mismo, tocar lo de otro módulo o lo compartido.
 - Datos reales, envíos reales, llaves en archivos.

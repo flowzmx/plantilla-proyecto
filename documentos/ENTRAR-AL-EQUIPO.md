@@ -18,7 +18,8 @@ Para quien se suma a un proyecto con **su propia cuenta de IA** (por ejemplo Cla
 7. Deja el chat abierto. Él solo construye, prueba y entrega. **Tú no copias recados**: todo pasa por GitHub y el panel.
 
 ## Si algo pasa
-- **Se te acaba el crédito:** dile «Deja tu relevo». Otro chat sigue donde quedó; no se pierde nada.
+- **Nadie más puede ver tu crédito** (ni el dueño ni sus chats): solo tú, en la página de **Uso** de tu cuenta. Manda una captura al empezar y si tu chat se para.
+- **Cerca del límite:** en cuanto Claude avise que vas cerca, tu chat **deja su relevo de inmediato** y lo guarda en GitHub. Si ya se cortó, al renovarse dile «Deja tu relevo». Otro chat sigue donde quedó; no se pierde nada.
 - **Pide un clic o un permiso** que no entiendes: no lo apruebes; avisa al dueño.
 - **Se queda callado:** el Coordinador lo ve en el panel y lo despierta.
 

@@ -12,3 +12,4 @@
 | Trabajo en algo prohibido | Dejarlo a un solo chat hasta que el dueño lo autorice |
 | Un chat «trabajando» sin avisar > 60 min | Revisarlo y despertarlo o abrir relevo |
 | El dueño contestó en un chat y no llegó | Pasarlo a «Te toca»/respuestas al momento |
+| Trabajador de **otra cuenta** (otra persona) sin guardados 15 min y sin «terminé» | Marcar «Se paró · posible límite de su cuenta» en el latido; pedirle a esa persona su captura de Uso; el relevo lo sigue otro chat. Nadie puede leer el crédito de otra cuenta |
