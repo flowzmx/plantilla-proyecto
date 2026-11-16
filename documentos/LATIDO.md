@@ -48,3 +48,12 @@ Con «Ya toca cambio de turno» sale **«Cambiar de turno ›»**: ventanita con
 - Un chat de claude.ai callado más de 1 h sale **«En espera · espera que le escribas»**, nunca «Se paró».
 - **Al tomar el turno, el chat nuevo marca al viejo** como `estado: "relevado"` en `estado.json` (y pone su propio renglón con nombre nuevo, p. ej. «Planeación (2)»).
 - Si dos chats vivos tienen **el mismo nombre o la misma tarea**, sale arriba en rojo: «Ojo: A y B están en lo mismo».
+
+## Cuentas y crédito (Arnaldo 15-nov 18:09, «constrúyelo»)
+- Cada chat dice con la cuenta de quién trabaja: `cuenta: "Edgar"` (solo el nombre de la persona; nunca correo ni contraseña).
+- Quien escribe los latidos (despertador o Coordinador) agrega en `estado.json` un pedacito por cuenta conectada en el servidor:
+  `"cuentas": [{"nombre": "Arnaldo", "ia": "claude", "queda": 10, "renueva": "21:00", "hora": "2026-11-16T00:10Z"}]`
+  - `queda`: % que le queda a la cuenta de su límite actual (Codex lo guarda en sus sesiones como `rate_limits` del último `token_count`: queda = 100 − `used_percent`; Claude Code: lo que diga su propio aviso de uso). Si no se puede leer, **no se manda** (sale «sin dato»). Nunca se inventa.
+  - `renueva`: a qué hora se renueva, en hora de Monterrey, corto («21:00», «mañana 08:00»).
+- El dueño acomoda las cuentas en el panel › **Ajustes** (`planeacion/ajustes.json`: % de cambio de turno, horas y vueltas de claude.ai, aviso de crédito, cuentas con «Trabaja» o «De respaldo»). Coordinador y despertador **leen ese archivo**: el % de cambio de turno manda sobre el de `AGENTS.md`.
+- Si a una cuenta que trabaja le queda menos del aviso, el panel le ofrece al dueño **«Mover ›»**. Su orden queda en `planeacion/respuestas-arnaldo/AAAA-MM-DD-HHMM-mover-chats.md`; el Coordinador o el despertador la ejecutan en su siguiente vuelta (relevo, chat nuevo en la otra cuenta con número siguiente, viejo `relevado`; si no se puede abrir solo, las palabras exactas al dueño).
