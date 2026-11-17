@@ -11,7 +11,7 @@
 - **Solo tu carpeta.** Lo compartido (menú, base común, arranque) se le pide al Coordinador con un pedido.
 - **Igual a la imagen aprobada.** Si algo no se puede, pregunta con un pedido; no inventes.
 - **Primero el plan** si cambia lógica o diseño; espera el ok.
-- **Recibo de terminado:** pruebas pasadas + recorrido completo con datos inventados + fotos con los mismos nombres de la imagen. Sin eso no está hecho. Arriba del recibo, un **resumen de 5 líneas** (qué hice, pruebas X/Y, fotos, qué falta, riesgo): es lo único que lee el Coordinador.
+- **Recibo de terminado:** pruebas pasadas + recorrido completo con datos inventados + fotos con los mismos nombres de la imagen. Sin eso no está hecho. Arriba del recibo, un **resumen de 5 líneas** (qué hice, pruebas X/Y, fotos, qué falta, riesgo): es lo único que lee el Coordinador. La línea **«Pruebas: N de N»** es obligatoria y la corres tú: sin ella el recibo se rechaza solo.
 - **Tutorial:** toda pantalla nueva con su paso y su foto.
 - Avisos en el pizarrón (pedido o bitácora), no por mensaje.
 - Tu latido lo manda el Coordinador; si te pregunta, dile tu tarea en una línea.

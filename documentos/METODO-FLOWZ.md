@@ -41,6 +41,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.15 · 16-nov-2026 · Menos vueltas, más cierre
+- **Antes:** se repartían muchas piezas en muchos frentes; los recibos decían «terminé» sin pruebas; había revisiones de revisiones.
+- **Qué pasó:** en un proyecto, de 37 encargos solo 14 dejaron recibo, varios en su 3.er intento; el Coordinador volvía a correr las pruebas de todos; casi todo quedó «hecho aparte» sin publicar y el gasto no se medía.
+- **Ahora:** se trabaja solo para cerrar la fase actual; recibo sin «Pruebas: N de N» se rechaza solo; una revisión, solo de lo que se publica; el latido enseña intentos por pieza y gasto desde el día uno.
+
 ### v3.14 · 16-nov-2026 · Claude coordina, todos trabajan
 - **Antes:** un proyecto se coordinaba desde ChatGPT y, cuando se paraba, nadie lo despertaba.
 - **Qué pasó:** se quedó parado horas esperando que alguien le escribiera.
