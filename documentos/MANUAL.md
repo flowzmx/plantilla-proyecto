@@ -43,7 +43,7 @@ Cada chat lee **solo la hoja de su puesto** al empezar: `hojas/PLANEACION.md`, `
 | `reglas/MODELOS.md` (modelo e intensidad por puesto) | Todos, al abrir un chat |
 | `ENTRAR-AL-EQUIPO.md` | Persona nueva con su cuenta |
 | `reglas/ALARMAS.md` | Supervisor y Coordinador |
-| `reglas/ARRANCAR.md`, `ARMAR-EQUIPO.md`, `CONECTAR-UN-PROYECTO.md` | Planeación, al empezar un proyecto |
+| `reglas/ARRANCAR.md`, `SERVIDOR-COMPARTIDO.md`, `ARMAR-EQUIPO.md`, `CONECTAR-UN-PROYECTO.md` | Planeación al empezar un proyecto; el conserje |
 | `LATIDO.md` | Coordinador (y el despertador) |
 | `reglas/CAMBIOS.md` | Quien mejora el método |
 | `skills/<puesto>/SKILL.md` | Cada puesto |

@@ -41,6 +41,11 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.16 · 17-nov-2026 · Varios proyectos en un servidor
+- **Antes:** cada proyecto se acomodaba en el servidor como podía, y nadie llevaba la cuenta de quién usaba qué.
+- **Qué pasó:** el dueño quiere muchos proyectos en el mismo servidor, hablar con un chat por proyecto y que adentro trabajen muchos, sin que se choquen.
+- **Ahora:** el servidor es un edificio: cada proyecto tiene su departamento (carpeta, usuario, puertos, base de datos, llaves y tope de consumo), hay **un solo conserje** que toca lo compartido y lleva la **lista de vecinos**, y cuando el edificio se llena se abre otro con las mismas reglas.
+
 ### v3.15 · 16-nov-2026 · Menos vueltas, más cierre
 - **Antes:** se repartían muchas piezas en muchos frentes; los recibos decían «terminé» sin pruebas; había revisiones de revisiones.
 - **Qué pasó:** en un proyecto, de 37 encargos solo 14 dejaron recibo, varios en su 3.er intento; el Coordinador volvía a correr las pruebas de todos; casi todo quedó «hecho aparte» sin publicar y el gasto no se medía.
