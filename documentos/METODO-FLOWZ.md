@@ -41,6 +41,12 @@ El Método Flowz es el orden que fuimos poniendo, regla por regla, cada vez que 
 
 ## Cómo ha cambiado
 
+### v3.16 · 20-nov-2026 · 30 a la vez, pero con trabajo en la fila (en prueba)
+- **Antes:** había 30 agentes autorizados, pero solo trabajaban de 0 a 2; el Coordinador encargaba una cosa por vuelta y la mayoría de los frentes no tenía módulo asignado.
+- **Qué pasó:** no faltaba capacidad, faltaba trabajo listo en la fila.
+- **Lección:** que un frente tenga cupo autorizado no significa que trabaje; hay que medir los agentes que trabajan de verdad, no los autorizados.
+- **Ahora:** cada frente tiene una fila de 5 a 10 encargos (si baja de 3, rellenarla es lo primero de la vuelta); todo frente tiene casa, y los que esperan un Sí hacen trabajo de relleno (pruebas, documentación, revisión, mediciones de solo lectura); el Coordinador puede unir varias entregas por vuelta si cada una trae prueba en verde y no choca con otra; no se frena por el % del plan de ChatGPT, solo se reporta (comprar créditos extra sigue pidiendo el Sí del dueño); se prueba con 30 a la vez y subir a 50 y luego a 100 pide el Sí del dueño en cada escalón. Medida nueva: piezas unidas por cada 1 % del plan de ChatGPT. Aún no se hace: Planificador aparte y unir solo cada 10 min.
+
 ### v3.15 · 16-nov-2026 · Menos vueltas, más cierre
 - **Antes:** se repartían muchas piezas en muchos frentes; los recibos decían «terminé» sin pruebas; había revisiones de revisiones.
 - **Qué pasó:** en un proyecto, de 37 encargos solo 14 dejaron recibo, varios en su 3.er intento; el Coordinador volvía a correr las pruebas de todos; casi todo quedó «hecho aparte» sin publicar y el gasto no se medía.
